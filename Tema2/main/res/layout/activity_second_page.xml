@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage">
+
+    <Button
+        android:id="@+id/ADDbutton"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="284dp"
+        android:text="ADD"
+        android:onClick="ADD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SUBbutton"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="284dp"
+        android:text="SUBSTRACT"
+        android:onClick="SUBSTRACT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/received"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="192dp"
+        android:text="Numbers:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Activity 2"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
